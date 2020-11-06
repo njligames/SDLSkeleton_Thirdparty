@@ -49,45 +49,8 @@ class NJLICGame {
                                   float m33) {}
 
     virtual void vRCameraRotationYPR(float yaw, float pitch, float roll) {}
-
-    //        virtual void vRCameraLocation(float x, float y, float z) {}
-
-    //
-    //    void lowMemory() {}
-
-    //    //    void Pause(){}
-    //    //    void Resume(){}
-    //    void dropFile(const char *filename) {}
-    //    void resize(int width, int height, int sdlFormat, float refreshRate)
-    //    {} int padDown(int device_id, int keycode) {} int padUp(int device_id,
-    //    int keycode) {} void joy(int device_id, int axis, float value) {} void
-    //    hat(int device_id, int hat_id, int x, int y) {}
-    //    void keyDown(const
-    //        std::string &keycodeName, bool withCapsLock,
-    //                     bool withControl, bool withShift, bool withAlt, bool
-    //                     withGui) {
-    //        }
-    //        void keyUp(const std::string &keycodeName, bool withCapsLock,
-    //                   bool withControl, bool withShift, bool withAlt, bool
-    //                   withGui) {}
-    //    void keyboardFocusLost() {}
-    //    void keyboardFinish(const unsigned char *state, int numStates) {}
-
-    //
-
-    //    void finishTouches() {}
-    //
-    //    void accel(float x, float y, float z) {}
-    //    void surfaceChanged() {}
-    //    void surfaceDestroyed() {}
-    //    int addJoystick(int device_id, const char *name, int is_accelerometer,
-    //                    int nbuttons, int naxes, int nhats, int nballs) {}
-    //    int removeJoystick(int device_id) {}
-    //    const char *getHint(const char *name) {}
-    //
-    //    void commitText(const char *text, int newCursorPosition) {}
-    //    void setComposingText(const char *text, int newCursorPosition) {}
-    //
+    
+    virtual void fileDrop(const std::string &fileName){}
 };
 
 #endif /* NJLICGame_h */
