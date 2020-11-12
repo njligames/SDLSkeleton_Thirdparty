@@ -19,7 +19,7 @@ class NJLICGame {
     NJLICGame() : mDone(false) {}
     virtual ~NJLICGame() {}
     virtual bool isDone() const { return mDone; }
-    void setDone(bool done = true) {
+    virtual void setDone(bool done = true) {
         if (done != isDone()) {
 
             mDone = done;
