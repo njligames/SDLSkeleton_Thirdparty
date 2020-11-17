@@ -26,7 +26,7 @@ class NJLICGame {
         }
     }
     virtual void update(double step) {}
-    virtual void render(){}
+    virtual void render()const{}
     virtual void resize(unsigned int w, unsigned int h) {}
     virtual void init(int argc, char *argv[]) {}
     virtual void unInit() {}
